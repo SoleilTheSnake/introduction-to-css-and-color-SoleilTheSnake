@@ -1,0 +1,77 @@
+body {  
+    height: 125vh;  
+    margin-top: 80px;  
+    padding: 30px;  
+    background-size: cover;  
+    background-color: rgb(53, 53, 53);
+    font-family: sans-serif;  
+}  
+
+header {  
+    background-color: black;  
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 5px;  
+    height: 30px;  
+    display: flex;  
+    justify-content: center;
+    align-items: center;  
+    box-shadow: 0 0 25px 0 black;  
+}  
+
+header ul {  
+    padding: 0;
+    list-style-type: none;  
+    display: flex;  
+}  
+
+header li {  
+    margin: 0 20px;  
+}  
+
+header li a {  
+    color: green;  
+    text-decoration: none;  
+    font-weight: bold;
+}  
+
+.content {
+    margin-top: 60px;
+}
+
+.resume-header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.section { 
+    margin-bottom: 20px; 
+}
+
+h1 { 
+    color: rgb(0, 255, 0); 
+}
+h2 { 
+    color: rgb(36, 174, 36); 
+}
+p {
+    color:rgb(107, 202, 107)
+}
+p2 {
+    color: rgb(82, 157, 82);
+}
+p3 {
+    color: rgb(51, 117, 51);
+}
+label {
+    color: rgb(0, 185, 0);
+}
+input, textarea {
+    background-color: black;
+    color: rgb(0, 255, 0);             
+    border: 1px solid rgb(0, 255, 0);  
+}
+.work-experience, .education { 
+    margin-left: 20px; 
+}
